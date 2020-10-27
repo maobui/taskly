@@ -4,11 +4,11 @@
 //
 //  Created by m.bui on 10/27/20.
 //
-
+	
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     fileprivate var imageName: String
